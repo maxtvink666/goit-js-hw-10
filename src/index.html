@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,16 +8,27 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
-
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
+    <a
+      class="nav-link {=$highlight-act}"
+      href="./1-timer.html"
+      style="
+        margin: 25px auto;
+        border: 1px solid #000;
+        padding: 8px 40%;
+        border-radius: 4px;
+      "
+      >Timer</a
+    >
+    <a
+      class="nav-link {=$highlight-curr}"
+      href="./2-snackbar.html"
+      style="
+      margin: 25px auto;
+        border: 1px solid #000;
+        padding: 8px 40%;
+        border-radius: 4px;
+      "
+      >Snackbar</a
+    >
   </body>
 </html>
